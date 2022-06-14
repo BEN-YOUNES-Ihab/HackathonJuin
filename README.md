@@ -23,20 +23,20 @@ Ensuite, faites les étapes suivantes:
 2. Executez Wamp
 
 3. Créez un vhost avec les infos suivantes:<br />
-Nom du virtual host: `ActivIT-API`<br />
-Chemin du vHost: `C:\wamp64\www\PIM\API\ActivIT\public`<br />
+Nom du virtual host: `QCM`<br />
+Chemin du vHost: `C:\wamp64\www\PIM\API\QCM\public`<br />
 
 
 4. Redémarrer le serveur DNS. Pour celà, faites un clic droit sur le logo wamp, à coté de l'horloge windows.<br />
 Allez dans outils -> Redémarrer les DNS.
 
-5. Installez les dépendances Symfony. Pour celà, faites un clic droit dans le dossier PIM\API\ActivIT et lancer un cmd.exe<br />
+5. Installez les dépendances Symfony. Pour celà, faites un clic droit dans le dossier PIM\API\QCM et lancer un cmd.exe<br />
 Executez la commande suivante:<br />
 `composer install`
 
 
 6. Vérifiez le bon fonctionnement de symfony en écrivant dans le navigateur:<br />
-http://activit-api/
+http://QCM/
 
 Vous devriez optenir la page d'accueil symfony.
 
